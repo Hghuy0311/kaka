@@ -1,0 +1,6 @@
+getgenv().Setting = {
+["Collect All Fruit"] = true,
+["White Screen"] = false,
+["Select Team"] = 2 -- 1 = Pirates / 2 = Marines
+}
+loadstring(game:HttpGet("https://serahub.site/scripts/farmfruit.txt"))()
